@@ -17,6 +17,8 @@ AuthPass=xxxx
 2) Also install sudo apt-get install php7.0-imap 
 After installing enable extension=php_imap.so
 
-/etc/php/7.0/apache2/php.ini
+depeding upon which php version
+
+/etc/php/7.x/apache2/php.ini
 
 3) That's it. Now you can use php mail function to send mails.
